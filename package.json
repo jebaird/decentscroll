@@ -1,0 +1,18 @@
+{
+  "name": "triggerscroll",
+  "version": "0.0.0",
+  "description": "custom scrollbars using only css",
+  "main": "index.js",
+  "scripts": {
+    "test": "chrome test.html"
+  },
+  "keywords": [
+    "scrollbar",
+    "css"
+  ],
+  "author": "Jesse Baird <jebaird@gmail.com> (http://jebaird.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "myth": "^1.5.0"
+  }
+}

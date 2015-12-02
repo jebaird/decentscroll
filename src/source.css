@@ -1,0 +1,26 @@
+/*
+trigger scroll
+ */
+
+/* pseudo elements */
+::-webkit-scrollbar              {  }
+::-webkit-scrollbar-button       {  }
+::-webkit-scrollbar-track        {
+    background-color: var(--track)
+ }
+::-webkit-scrollbar-track-piece  {  }
+::-webkit-scrollbar-thumb        {  }
+::-webkit-scrollbar-corner       {  }
+::-webkit-resizer                {  }
+
+
+
+/*ms*/
+
+/* scrollbar-3dlight-color:gold;
+    scrollbar-arrow-color:blue;
+    scrollbar-base-color:;
+    scrollbar-darkshadow-color:blue;
+    scrollbar-face-color:;
+    scrollbar-highlight-color:;
+    scrollbar-shadow-color:*/
