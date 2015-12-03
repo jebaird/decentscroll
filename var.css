@@ -2,5 +2,28 @@
     change your varibles
  */
 :root {
-    --track: green;
+
+    /* this is the default color when the track-background is not in play */
+    --scrollbar-background: transparent;
+    --scrollbar-width: 7px;
+
+
+    /*--track-width: 710px;*/
+    /* this is the default color of the track when the scroll-bark-track-piece-background is not in play */
+    --track-background: transparent;
+
+    --scrollbar-button-background: black;
+    --scrollbar-button-display: inital;
+    --scrollbar-button-height: 5px;
+
+
+    --resizer-background: transparent;
+    --resizer-display: none;
+
+    /* this is the peice of the track that is not covered by the scrollbar-thumb*/
+    --scrollbar-track-peice-background: transparent;
+
+    --scrollbar-thumb-background: yellow;
+    --scrollbar-thumb-height: 10px;
+    --scrollbar-thumb-boarder-raduis: 3px;
 }
