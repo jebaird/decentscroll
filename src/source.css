@@ -3,14 +3,26 @@ trigger scroll
  */
 
 /* pseudo elements */
-::-webkit-scrollbar,
-::-webkit-scrollbar:horizontal {
+::-webkit-scrollbar {
     background: var( --scrollbar-background);
     width: var( --scrollbar-width );
     /*lets treat width and height the same*/
     height: var( --scrollbar-width );
+
+    border: var(--scrollbar-border);
 }
-::-webkit-scrollbar-button       {
+
+::-webkit-scrollbar:hover {
+    background: var( --scrollbar-background-hover);
+    width: var( --scrollbar-width-hover );
+    /*lets treat width and height the same*/
+    height: var( --scrollbar-width-hover );
+
+    border: var(--scrollbar-border-hover);
+}
+
+
+::-webkit-scrollbar-button {
     background: var( --scrollbar-button-background);
     display: var( --scrollbar-button-display );
     /* width and height are treated the same when it comes to this element */
@@ -28,6 +40,7 @@ trigger scroll
     background: var( --scrollbar-track-peice-background);
 }
 ::-webkit-scrollbar-thumb        {
+    border: var( --scrollbar-thumb-border );
     background: var( --scrollbar-thumb-background );
     height: var( --scrollbar-thumb-height );
     width: var( --scrollbar-thumn-height );
@@ -45,12 +58,47 @@ trigger scroll
     background: var(--resizer-background);
     /*width: var(--resizer-width);*/
     /*height: var(--resizer-height);*/
-    display: var( --resizer-display)
+    display: var( --resizer-display);
 }
 
 
 
-/*ms*/
+/*
+
+ms
+
+https://msdn.microsoft.com/library/hh772048(v=vs.85).aspx
+
+*/
+
+* {
+
+    /*Specifies the base color of the main elements of a scroll bar.*/
+    scrollbar-base-color: var( --scrollbar-background);
+    
+    /* Specifies the color of the track element of a scroll bar. */
+    scrollbar-track-color: var(--track-background);
+    -ms-scrollbar-track-color: var(--track-background);
+    
+    /* Specifies the color of the arrow elements of a scroll arrow. */
+    scrollbar-arrow-color: var(--scrollbar-button-background);
+    -ms-scrollbar-arrow-color: var(--scrollbar-button-background);
+
+    /* Specifies the color of the scroll box and scroll arrows of a scroll bar. */
+    scrollbar-face-color: var( --scrollbar-thumb-background);
+    -ms-scrollbar-face-color: var( --scrollbar-thumb-background);
+
+    /* this doesnt seem to get applied correctly */
+    -ms-scrollbar-darkshadow-color: var( --scrollbar-track-peice-background);
+    scrollbar-darkshadow-color: var( --scrollbar-track-peice-background);
+
+
+    -ms-scrollbar-highlight-color: var( --scrollbar-track-peice-background );
+
+    -ms-scrollbar-3dlight-color: red;
+
+
+}
 
 /* scrollbar-3dlight-color:gold;
     scrollbar-arrow-color:blue;

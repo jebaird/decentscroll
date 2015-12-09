@@ -1,29 +1,48 @@
 /*
-    change your varibles
+    change your variables
  */
 :root {
 
     /* this is the default color when the track-background is not in play */
-    --scrollbar-background: transparent;
+    --scrollbar-background: green;
     --scrollbar-width: 7px;
+    --scrollbar-border: 1px solid red ;
+
+    /*states */
+    --scrollbar-background-hover: blue;
+    --scrollbar-width-hover: 7px;
+    --scrollbar-border-hover: 1px solid black ;
 
 
-    /*--track-width: 710px;*/
-    /* this is the default color of the track when the scroll-bark-track-piece-background is not in play */
-    --track-background: transparent;
 
-    --scrollbar-button-background: black;
-    --scrollbar-button-display: inital;
+    /* 
+        this is the default color of the track when the scroll-bark-track-piece-background is not in play 
+        IE: this is what is used for the track BG
+    */
+    --track-background: pink;
+
+
+    --scrollbar-button-background: transparent;
+    --scrollbar-button-display: none;
     --scrollbar-button-height: 5px;
 
 
-    --resizer-background: transparent;
+    --resizer-background: red;
     --resizer-display: none;
 
-    /* this is the peice of the track that is not covered by the scrollbar-thumb*/
+    /* 
+        this is the peice of the track that is not covered by the scrollbar-thumb
+        IE doesn't support this prop
+    */
     --scrollbar-track-peice-background: transparent;
 
+
+    /*
+        this is the marker in the track
+        IE only supports changing the background color
+     */
     --scrollbar-thumb-background: yellow;
+    --scrollbar-thumb-border: 1px solid gray;
     --scrollbar-thumb-height: 10px;
     --scrollbar-thumb-boarder-raduis: 3px;
 }
