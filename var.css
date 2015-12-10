@@ -5,7 +5,9 @@
 
     /* this is the default color when the track-background is not in play */
     --scrollbar-background: green;
+    /* #chrome only */
     --scrollbar-width: 7px;
+    /* #chrome only */
     --scrollbar-border: 1px solid red ;
 
     /*states */
@@ -26,12 +28,13 @@
     --scrollbar-button-display: none;
     --scrollbar-button-height: 5px;
 
-
+    /* #chrome only */
     --resizer-background: red;
+    /* #chrome only */
     --resizer-display: none;
 
     /* 
-        this is the peice of the track that is not covered by the scrollbar-thumb
+        this is the piece of the track that is not covered by the scrollbar-thumb
         IE doesn't support this prop
     */
     --scrollbar-track-peice-background: transparent;
@@ -42,6 +45,8 @@
         IE only supports changing the background color
      */
     --scrollbar-thumb-background: yellow;
+
+    /* #chrome only */
     --scrollbar-thumb-border: 1px solid gray;
     --scrollbar-thumb-height: 10px;
     --scrollbar-thumb-boarder-raduis: 3px;
