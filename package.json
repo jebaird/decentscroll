@@ -1,7 +1,7 @@
 {
-  "name": "triggerscroll",
+  "name": "decentscroll",
   "version": "0.0.0",
-  "description": "custom scrollbars using only css",
+  "description": "styled scrollbars using only css",
   "main": "index.js",
   "scripts": {
     "test": "node index.js && chrome index.html"
