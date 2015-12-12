@@ -1,5 +1,11 @@
 /*
-trigger scroll
+    decentscroll
+    normalize scrollbar css for chrome and ie. Sorry no firefox supports
+    https://github.com/jebaird/decentscroll
+    @author Jesse Baird <jebaird@gmail.com>
+    @license MIT
+
+    
  */
 
 /* pseudo elements */
@@ -88,22 +94,20 @@ https://msdn.microsoft.com/library/hh772048(v=vs.85).aspx
     scrollbar-face-color: var( --scrollbar-thumb-background);
     -ms-scrollbar-face-color: var( --scrollbar-thumb-background);
 
-    /* this doesnt seem to get applied correctly */
+    /* this doesn't seem to get applied correctly */
     -ms-scrollbar-darkshadow-color: var( --scrollbar-track-peice-background);
     scrollbar-darkshadow-color: var( --scrollbar-track-peice-background);
 
 
     -ms-scrollbar-highlight-color: var( --scrollbar-track-peice-background );
+    scrollbar-highlight-color: var( --scrollbar-track-peice-background );
 
+
+/* this doesn't get applied
     -ms-scrollbar-3dlight-color: red;
+    scrollbar-3dlight-color: red;
+*/
+
 
 
 }
-
-/* scrollbar-3dlight-color:gold;
-    scrollbar-arrow-color:blue;
-    scrollbar-base-color:;
-    scrollbar-darkshadow-color:blue;
-    scrollbar-face-color:;
-    scrollbar-highlight-color:;
-    scrollbar-shadow-color:*/

@@ -1,10 +1,16 @@
 /*
-    change your variables
+    decentscroll
+    normalize scrollbar css for chrome and ie. Sorry no firefox supports
+    https://github.com/jebaird/decentscroll
+    @author Jesse Baird <jebaird@gmail.com>
+    @license MIT
+
+    
  */
 :root {
 
     /* this is the default color when the track-background is not in play */
-    --scrollbar-background: green;
+    --scrollbar-background: inital;
     /* #chrome only */
     --scrollbar-width: 7px;
     /* #chrome only */
@@ -21,7 +27,7 @@
         this is the default color of the track when the scroll-bark-track-piece-background is not in play 
         IE: this is what is used for the track BG
     */
-    --track-background: pink;
+    --track-background: transparent;
 
 
     --scrollbar-button-background: transparent;
