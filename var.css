@@ -10,16 +10,16 @@
 :root {
 
     /* this is the default color when the track-background is not in play */
-    --scrollbar-background: inital;
+    --scrollbar-background: #E5E5E5;
     /* #chrome only */
-    --scrollbar-width: 7px;
+    --scrollbar-width: 6px;
     /* #chrome only */
-    --scrollbar-border: 1px solid red ;
+    --scrollbar-border: 1px none red ;
 
     /*states */
-    --scrollbar-background-hover: blue;
-    --scrollbar-width-hover: 7px;
-    --scrollbar-border-hover: 1px solid black ;
+    --scrollbar-background-hover: #D6D6D6;
+    --scrollbar-width-hover: inital;
+    --scrollbar-border-hover: 1px none black ;
 
 
 
@@ -32,10 +32,10 @@
 
     --scrollbar-button-background: transparent;
     --scrollbar-button-display: none;
-    --scrollbar-button-height: 5px;
+    --scrollbar-button-height: auto;
 
     /* #chrome only */
-    --resizer-background: red;
+    --resizer-background: inital;
     /* #chrome only */
     --resizer-display: none;
 
@@ -50,10 +50,10 @@
         this is the marker in the track
         IE only supports changing the background color
      */
-    --scrollbar-thumb-background: yellow;
+    --scrollbar-thumb-background: #8a8a8a;
 
     /* #chrome only */
-    --scrollbar-thumb-border: 1px solid gray;
-    --scrollbar-thumb-height: 10px;
-    --scrollbar-thumb-boarder-raduis: 3px;
+    --scrollbar-thumb-border: 1px none gray;
+    --scrollbar-thumb-height: auto;
+    --scrollbar-thumb-boarder-raduis: 0px;
 }
