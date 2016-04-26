@@ -18,3 +18,10 @@ Now include the generated stylesheet in your project:
  
 Or check out `test.html`
 
+
+Note: Unless your browser supports css custom properties every time you make a change to `var.css` you will have to rerun `index.js`
+
+<iframe src="http://caniuse.com/css-variables/embed" width="100%" height="360px" seamless frameboarder="0"></iframe> 
+
+
+
