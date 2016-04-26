@@ -14,7 +14,7 @@ Run the following
 
 Now include the generated stylesheet in your project:
 
-	<link rel="stylesheet" type="text/css" href="converted.css">  
+	<link rel="stylesheet" type="text/css" href="decentscroll-converted.css">  
  
 Or check out `test.html`
 
